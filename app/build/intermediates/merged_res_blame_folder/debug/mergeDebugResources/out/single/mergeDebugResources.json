@@ -1,0 +1,238 @@
+[
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-debug-43:\\layout_activity_register.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-main-45:\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-debug-43:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-main-45:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-debug-43:\\menu_bottom_menu.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-main-45:\\menu\\bottom_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-debug-43:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-main-45:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-debug-43:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-main-45:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-debug-43:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-main-45:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-debug-43:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-main-45:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-debug-43:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-main-45:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-debug-43:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-main-45:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-debug-43:\\drawable_pharmacies.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-main-45:\\drawable\\pharmacies.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-debug-43:\\mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-main-45:\\mipmap-xxhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-debug-43:\\drawable_ic_baseline_account_circle_24.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-main-45:\\drawable\\ic_baseline_account_circle_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-debug-43:\\drawable_img_1.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-main-45:\\drawable\\img_1.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-debug-43:\\drawable_law2.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-main-45:\\drawable\\law2.png"
+    },
+    {
+        "merged": "com.example.safetyapp-debug-43:/layout_fragment_home.xml.flat",
+        "source": "com.example.safetyapp-main-45:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-debug-43:\\drawable_ic_baseline_contact_phone_24.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-main-45:\\drawable\\ic_baseline_contact_phone_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-debug-43:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-main-45:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-debug-43:\\drawable_bus_station.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-main-45:\\drawable\\bus_station.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-debug-43:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-main-45:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-debug-43:\\mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-main-45:\\mipmap-xxxhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-debug-43:\\drawable_pro.jpg.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-main-45:\\drawable\\pro.jpg"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-debug-43:\\drawable_ic_baseline_home_24.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-main-45:\\drawable\\ic_baseline_home_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-debug-43:\\layout_fragment_profile.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-main-45:\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-debug-43:\\drawable_img.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-main-45:\\drawable\\img.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-debug-43:\\drawable_ic_baseline_add_24.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-main-45:\\drawable\\ic_baseline_add_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-debug-43:\\drawable_police_station.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-main-45:\\drawable\\police_station.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-debug-43:\\drawable_gradient_safecolor.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-main-45:\\drawable\\gradient_safecolor.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-debug-43:\\drawable_policeem.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-main-45:\\drawable\\policeem.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-debug-43:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-main-45:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-debug-43:\\drawable_law3.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-main-45:\\drawable\\law3.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-debug-43:\\mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-main-45:\\mipmap-xhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-debug-43:\\drawable_ic_baseline_chat_24.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-main-45:\\drawable\\ic_baseline_chat_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-debug-43:\\drawable_hospital.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-main-45:\\drawable\\hospital.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-debug-43:\\drawable_rounded_edittext.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-main-45:\\drawable\\rounded_edittext.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-debug-43:\\drawable_womenhelpline.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-main-45:\\drawable\\womenhelpline.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-debug-43:\\drawable_ambulance.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-main-45:\\drawable\\ambulance.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-debug-43:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-main-45:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-debug-43:\\layout_activity_profile_view.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-main-45:\\layout\\activity_profile_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-debug-43:\\drawable_rounded_button.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-main-45:\\drawable\\rounded_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-debug-43:\\drawable_gradient_background.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-main-45:\\drawable\\gradient_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-debug-43:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-main-45:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-debug-43:\\layout_fragment_guardian.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-main-45:\\layout\\fragment_guardian.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-debug-43:\\drawable_circle_background.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-main-45:\\drawable\\circle_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-debug-43:\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-main-45:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-debug-43:\\mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-main-45:\\mipmap-mdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-debug-43:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-main-45:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-debug-43:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-main-45:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-debug-43:\\drawable_firebrigade.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-main-45:\\drawable\\firebrigade.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-debug-43:\\mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-main-45:\\mipmap-hdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-debug-43:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-main-45:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-debug-43:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-main-45:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-debug-43:\\drawable_gradient_paniccolor.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-main-45:\\drawable\\gradient_paniccolor.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-debug-43:\\drawable_law4.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-main-45:\\drawable\\law4.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-debug-43:\\layout_fragment_contact.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-main-45:\\layout\\fragment_contact.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-debug-43:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-main-45:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-debug-43:\\raw_alarm.mp3.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-main-45:\\raw\\alarm.mp3"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-debug-43:\\drawable_law1.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-main-45:\\drawable\\law1.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-debug-43:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-main-45:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-debug-43:\\drawable_rounded_button_bg.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-main-45:\\drawable\\rounded_button_bg.xml"
+    }
+]

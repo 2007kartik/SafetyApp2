@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/ic_baseline_home_24"/>
+
+<!--    <item-->
+<!--        android:id="@+id/Chat"-->
+<!--        android:title="Chat"-->
+<!--        android:icon="@drawable/ic_baseline_chat_24"/>-->
+
+    <item
+        android:id="@+id/Gurdian"
+        android:title="Guardian"
+        android:icon="@drawable/ic_baseline_add_24"
+        />
+
+    <item
+        android:id="@+id/Contact"
+        android:title="Contact"
+        android:icon="@drawable/ic_baseline_contact_phone_24"/>
+
+
+    <item
+        android:id="@+id/Profile"
+        android:title="Profile"
+        android:icon="@drawable/ic_baseline_account_circle_24"/>
+
+</menu>

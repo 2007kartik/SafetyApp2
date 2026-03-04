@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-mergeDebugResources-42:\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-main-45:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-mergeDebugResources-42:\\layout\\fragment_profile.xml",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-main-45:\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-mergeDebugResources-42:\\layout\\activity_register.xml",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-main-45:\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-mergeDebugResources-42:\\layout\\fragment_contact.xml",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-main-45:\\layout\\fragment_contact.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-mergeDebugResources-42:\\layout\\activity_profile_view.xml",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-main-45:\\layout\\activity_profile_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-mergeDebugResources-42:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-main-45:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "com.example.safetyapp-mergeDebugResources-42:/layout/fragment_home.xml",
+        "source": "com.example.safetyapp-main-45:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-mergeDebugResources-42:\\layout\\fragment_guardian.xml",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-main-45:\\layout\\fragment_guardian.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-mergeDebugResources-42:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.9\\com.example.safetyapp-main-45:\\layout\\activity_main.xml"
+    }
+]

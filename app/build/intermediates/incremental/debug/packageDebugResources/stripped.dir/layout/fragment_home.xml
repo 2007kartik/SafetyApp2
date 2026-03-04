@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".HomeFragment">
+
+
+        
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        android:background="@android:color/darker_gray"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/appNameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Human Safety App"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="58dp"
+        android:text="We admire"
+        android:textColor="#6A6969"
+        android:textSize="17dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="77dp"
+        android:textStyle="bold"
+        android:text="Your strong personality." />
+
+    <!-- new Horizontal Scroll View containing multiple cards -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center" />
+
+    <HorizontalScrollView
+        android:id="@+id/HorizontalScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="122dp">
+
+        <!-- Horizontal LinearLayout to hold the cards -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <!-- Card 1 (Black Color) -->
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="240dp"
+                android:layout_height="140dp"
+                android:layout_marginStart="80dp"
+                android:layout_marginEnd="20dp"
+                android:layout_gravity="center"
+                app:cardCornerRadius="18dp"
+                app:cardElevation="4dp">
+
+                <ImageView
+                    android:id="@+id/law1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/law1" />
+
+                <!-- Card Content (Example) -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Stay alert"
+                    android:textStyle="bold"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="6dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp"/>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Card 2 (Black Color) -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="240dp"
+                android:layout_height="140dp"
+                android:layout_marginEnd="20dp"
+                android:layout_gravity="center"
+                app:cardCornerRadius="18dp"
+                app:cardElevation="4dp">
+
+                <ImageView
+                    android:id="@+id/law2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/law2" />
+
+                <!-- Card Content (Example) -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="You are strong"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="6dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp"/>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Card 3 (Black Color) -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="240dp"
+                android:layout_height="140dp"
+                android:layout_marginEnd="20dp"
+                android:layout_gravity="center"
+                app:cardCornerRadius="18dp"
+                app:cardElevation="4dp">
+
+                <ImageView
+                    android:id="@+id/law3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/law3" />
+
+                <!-- Card Content (Example) -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="First Priority"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="6dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"/>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Card 4 (Black Color) -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="240dp"
+                android:layout_height="140dp"
+                android:layout_marginEnd="20dp"
+                android:layout_gravity="center"
+                app:cardCornerRadius="18dp"
+                app:cardElevation="4dp">
+
+                <ImageView
+                    android:id="@+id/law4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/law4" />
+
+                <!-- Card Content (Example) -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Be friendly"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="6dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"/>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="285dp"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="Emergency" />
+
+    <TextView
+
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="285dp"
+        android:textSize="16dp"
+        android:layout_marginLeft="280dp"
+        android:textColor="@color/skyblue"
+        android:textStyle="bold"
+        android:text="See More" />
+
+    <!-- EMERGENCY Horizontal Scroll View containing multiple cards -->
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="10dp">
+
+        <!-- Horizontal LinearLayout to hold the cards -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/EM1"
+                android:layout_width="240dp"
+                android:layout_height="140dp"
+                android:layout_marginEnd="20dp"
+                android:layout_gravity="center"
+                app:cardBackgroundColor="@color/emcard"
+                app:cardCornerRadius="18dp"
+                app:cardElevation="4dp"
+                android:padding="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <!-- Icon -->
+                    <ImageView
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:src="@drawable/policeem"
+                        android:background="@drawable/rounded_button_bg"
+                        android:scaleType="fitCenter"
+                        android:padding="8dp"
+                        android:contentDescription="Police Icon" />
+
+                    <!-- Emergency Text -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="POLICE"
+                        android:textColor="@android:color/white"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:layout_marginTop="4dp"/>
+
+                    <!-- Emergency Contact Number -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Call 100 for emergency"
+                        android:textColor="@android:color/white"
+                        android:textSize="14sp"
+                        android:gravity="center"
+                        android:layout_marginTop="4dp"/>
+
+                    <!-- Emergency Number at Bottom -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1 - 0 - 0"
+                        android:textColor="@android:color/white"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:layout_marginTop="6dp"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <!-- Card 2 ( Color) -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/EM2"
+                android:layout_width="240dp"
+                android:layout_height="140dp"
+                android:layout_marginEnd="20dp"
+                android:layout_gravity="center"
+                app:cardBackgroundColor="@color/emcard"
+                app:cardCornerRadius="18dp"
+                app:cardElevation="4dp"
+                android:padding="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <!-- Icon -->
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/rounded_button_bg"
+                        android:scaleType="fitCenter"
+                        android:padding="7dp"
+                        android:src="@drawable/ambulance"
+                        android:contentDescription="Ambulance Icon" />
+
+                    <!-- Emergency Text -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="AMBULANCE"
+                        android:textColor="@android:color/white"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:layout_marginTop="4dp"/>
+
+                    <!-- Emergency Contact Number -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Call 108 for Ambulance"
+                        android:textColor="@android:color/white"
+                        android:textSize="14sp"
+                        android:gravity="center"
+                        android:layout_marginTop="4dp"/>
+
+                    <!-- Emergency Number at Bottom -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1 - 0 - 8"
+                        android:textColor="@android:color/white"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:layout_marginTop="6dp"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Card 3 (Black Color) -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/EM3"
+                android:layout_width="240dp"
+                android:layout_height="140dp"
+                android:layout_marginEnd="20dp"
+                android:layout_gravity="center"
+                app:cardBackgroundColor="@color/emcard"
+                app:cardCornerRadius="18dp"
+                app:cardElevation="4dp"
+                android:padding="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <!-- Icon -->
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/rounded_button_bg"
+                        android:scaleType="fitCenter"
+                        android:padding="7dp"
+                        android:src="@drawable/firebrigade"
+                        android:contentDescription="Firebrigade Icon" />
+
+                    <!-- Emergency Text -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="FIRE BRIGADE"
+                        android:textColor="@android:color/white"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:layout_marginTop="4dp"/>
+
+                    <!-- Emergency Contact Number -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Call 101 for Fire brigade"
+                        android:textColor="@android:color/white"
+                        android:textSize="14sp"
+                        android:gravity="center"
+                        android:layout_marginTop="4dp"/>
+
+                    <!-- Emergency Number at Bottom -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1 - 0 - 1"
+                        android:textColor="@android:color/white"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:layout_marginTop="6dp"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Card 4 (Black Color) -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/EM4"
+                android:layout_width="240dp"
+                android:layout_height="140dp"
+                android:layout_marginEnd="20dp"
+                android:layout_gravity="center"
+                app:cardBackgroundColor="@color/emcard"
+                app:cardCornerRadius="18dp"
+                app:cardElevation="4dp"
+                android:padding="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <!-- Icon -->
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/rounded_button_bg"
+                        android:scaleType="fitCenter"
+                        android:padding="7dp"
+                        android:src="@drawable/womenhelpline"
+                        android:contentDescription="Womenhelpline Icon" />
+
+                    <!-- Emergency Text -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="WOMEN HELPLINE"
+                        android:textColor="@android:color/white"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:layout_marginTop="4dp"/>
+
+                    <!-- Emergency Contact Number -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Call 1091 for Women Helpline"
+                        android:textColor="@android:color/white"
+                        android:textSize="14sp"
+                        android:gravity="center"
+                        android:layout_marginTop="4dp"/>
+
+                    <!-- Emergency Number at Bottom -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1 - 0 - 9 - 1"
+                        android:textColor="@android:color/white"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:layout_marginTop="6dp"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <!-- Panic and Share Safe Buttons -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingHorizontal="10dp"
+            android:layout_alignParentBottom="true"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="0dp"
+                android:layout_height="73dp"
+                android:layout_weight="1"
+                android:backgroundTint="@android:color/holo_red_dark"
+                android:text="Panic" />
+
+            <View
+                android:layout_width="10dp"
+                android:layout_height="match_parent" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="0dp"
+                android:layout_height="73dp"
+                android:layout_weight="1"
+                android:backgroundTint="@android:color/holo_green_dark"
+                android:text="Share Safe" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="480dp"
+        android:textSize="18dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="Explore LiveSafe"
+        />
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Horizontal Container for Icons and Labels -->
+        <LinearLayout
+            android:id="@+id/iconContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="515dp">
+
+            <!-- Police Station -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/imageButton"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/police_station"
+                    android:background="@drawable/rounded_button_bg"
+                    android:scaleType="fitCenter"
+                    android:padding="10dp"/>
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Police Stations"
+                    android:textSize="13sp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="8dp"/>
+            </LinearLayout>
+
+            <!-- Hospital -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/imageButton2"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/hospital"
+                    android:background="@drawable/rounded_button_bg"
+                    android:scaleType="fitCenter"
+                    android:padding="10dp"/>
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hospitals"
+                    android:textSize="13sp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="8dp"/>
+            </LinearLayout>
+
+            <!-- Pharmacies -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/imageButton3"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/pharmacies"
+                    android:background="@drawable/rounded_button_bg"
+                    android:scaleType="fitCenter"
+                    android:padding="10dp"/>
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pharmacies"
+                    android:textSize="13sp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="8dp"/>
+            </LinearLayout>
+
+            <!-- Bus Stations -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/imageButton4"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/bus_station"
+                    android:background="@drawable/rounded_button_bg"
+                    android:scaleType="fitCenter"
+                    android:padding="10dp"/>
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bus Stations"
+                    android:textSize="13sp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="8dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <!-- Voice SOS Floating Button (Top Right) -->
+    <!-- Voice SOS Floating Button (Top Right - lowered) -->
+    <Button
+        android:id="@+id/voiceToggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voice SOS"
+        android:layout_gravity="top|end"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="12dp"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:textColor="@android:color/white"/>
+
+
+
+
+
+</FrameLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "387987045569",
+    "project_id": "rsafetyapp",
+    "storage_bucket": "rsafetyapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:387987045569:android:15c47261b3d424fa4a6840",
+        "android_client_info": {
+          "package_name": "com.example.safetyapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXDgX3xromeAd4wJA9PWhSwfAs5rFTkCY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:padding="20dp">
+
+    <!-- Profile Header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF66A3"
+        android:padding="15dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User Profile"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+    <!-- Profile Picture Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+
+        <!-- Profile Picture -->
+        <ImageView
+            android:id="@+id/ivProfilePicture"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@android:drawable/ic_menu_camera"
+            android:layout_marginBottom="10dp"
+            android:contentDescription="Profile Picture"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+    <!-- Username -->
+    <TextView
+        android:id="@+id/tvUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username: "
+        android:textSize="18sp"
+        android:paddingTop="40dp"
+        android:textColor="#000000"
+        android:layout_marginTop="20dp"/>
+
+    <!-- Mobile Number -->
+    <TextView
+        android:id="@+id/tvMobileNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mobile Number: "
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:paddingTop="20dp"
+        android:layout_marginTop="10dp"/>
+
+    <!-- Email -->
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email: "
+        android:paddingTop="20dp"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:layout_marginTop="10dp"/>
+
+<!--    &lt;!&ndash; Edit Profile Button (Optional) &ndash;&gt;-->
+<!--    <Button-->
+<!--        android:id="@+id/btnEditProfile"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Edit Profile"-->
+<!--        android:background="#FF66A3"-->
+<!--        android:textColor="#FFFFFF"-->
+<!--        android:layout_marginTop="40dp"-->
+<!--        android:padding="10dp" />-->
+
+</LinearLayout>
