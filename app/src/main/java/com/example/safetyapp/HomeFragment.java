@@ -109,6 +109,12 @@ public class HomeFragment extends Fragment {
         view.findViewById(R.id.imageButton3).setOnClickListener(v -> searchNearbyPlaces("pharmacy"));
         view.findViewById(R.id.imageButton4).setOnClickListener(v -> searchNearbyPlaces("bus station"));
 
+        view.findViewById(R.id.law1).setOnClickListener(v -> openLink("https://mind4survival.com/situational-awareness-staying-alert-and-staying-safe/"));
+        view.findViewById(R.id.law2).setOnClickListener(v -> openLink("https://issuesiface.com/magazine/top-10-safety-tips-for-women"));
+        view.findViewById(R.id.law3).setOnClickListener(v -> openLink("https://iso26262guide.com/articles/blog-post-safety-is-highest-priority"));
+        view.findViewById(R.id.law4).setOnClickListener(v -> openLink("https://blog.acumenacademy.org/environmental-and-climate-friendly-actions?utm_source=bing&utm_medium=&utm_campaign=&utm_term=living%20sustainably&hsa_kw=living%20sustainably&hsa_cam=566105817&hsa_ver=3&hsa_acc=3091410687&hsa_ad=&hsa_grp=1173179916541089&hsa_src=o&hsa_mt=b&hsa_tgt=kwd-73323938016698:loc-90&hsa_net=adwords&msclkid=cef0ddebc5b01e49589cba387e01c5ac&utm_content=Sustainable%20Living"));
+
+
         horizontalScrollView = view.findViewById(R.id.HorizontalScrollView);
 
         horizontalScrollView.setOnScrollChangeListener(

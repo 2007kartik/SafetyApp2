@@ -4,11 +4,10 @@
 
     <uses-feature android:name="android.hardware.telephony" android:required="false" />
 
-    <!-- Permissions (each only once) -->
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MICROPHONE" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT"/>
-
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
     <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
@@ -19,24 +18,9 @@
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
     <uses-permission android:name="android.permission.VIBRATE"/>
     <uses-permission android:name="android.permission.WAKE_LOCK"/>
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.CALL_PHONE" />
-
-    <!-- Voice recognition -->
     <uses-permission android:name="android.permission.RECORD_AUDIO"/>
-
-<!--    &lt;!&ndash; Call emergency number &ndash;&gt;-->
-<!--    <uses-permission android:name="android.permission.CALL_PHONE"/>-->
-
-<!--    &lt;!&ndash; Run service in background &ndash;&gt;-->
-<!--    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>-->
-
-<!--    &lt;!&ndash; Optional but recommended &ndash;&gt;-->
-<!--    <uses-permission android:name="android.permission.INTERNET"/>-->
-
-
-
-
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
 
     <application
         android:allowBackup="true"
@@ -52,6 +36,7 @@
         <activity android:name=".HomeActivity" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".MainActivity" />
+
         <activity android:name=".RegisterActivity"
             android:exported="true">
             <intent-filter>
@@ -62,12 +47,28 @@
 
         <activity android:name=".ProfileViewActivity" />
 
+        <!--
+            ✅ EmergencyCallActivity:
+            - NO custom theme (avoids crash with plain Activity)
+            - showOnLockScreen + turnScreenOn = works on locked screen
+            - excludeFromRecents = won't appear in recent apps
+            - launchMode singleInstance = only one instance ever runs
+        -->
+        <activity
+            android:name=".EmergencyCallActivity"
+            android:exported="false"
+            android:showOnLockScreen="true"
+            android:turnScreenOn="true"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:taskAffinity=""
+            android:noHistory="true" />
+
         <service
             android:name=".ShakeDetectionService"
             android:exported="false"
             android:foregroundServiceType="location|microphone"
             tools:ignore="ForegroundServicePermission" />
-
 
     </application>
 

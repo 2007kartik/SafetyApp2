@@ -12,8 +12,8 @@
         android:name="android.hardware.telephony"
         android:required="false" />
 
-    <!-- Permissions (each only once) -->
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MICROPHONE" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
@@ -26,11 +26,9 @@
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.CALL_PHONE" />
-
-    <!-- Voice recognition -->
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Include required permissions for Google Maps API to run. -->
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
@@ -44,12 +42,8 @@
         android:name="com.example.safetyapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.example.safetyapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- &lt;!&ndash; Call emergency number &ndash;&gt; -->
-    <!-- <uses-permission android:name="android.permission.CALL_PHONE"/> -->
-    <!-- &lt;!&ndash; Run service in background &ndash;&gt; -->
-    <!-- <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/> -->
-    <!-- &lt;!&ndash; Optional but recommended &ndash;&gt; -->
-    <!-- <uses-permission android:name="android.permission.INTERNET"/> -->
+    <uses-permission android:name="com.example.safetyapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+
     <application
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -75,6 +69,23 @@
             </intent-filter>
         </activity>
         <activity android:name="com.example.safetyapp.ProfileViewActivity" />
+
+        <!--
+            ✅ EmergencyCallActivity:
+            - NO custom theme (avoids crash with plain Activity)
+            - showOnLockScreen + turnScreenOn = works on locked screen
+            - excludeFromRecents = won't appear in recent apps
+            - launchMode singleInstance = only one instance ever runs
+        -->
+        <activity
+            android:name="com.example.safetyapp.EmergencyCallActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:launchMode="singleInstance"
+            android:noHistory="true"
+            android:showOnLockScreen="true"
+            android:taskAffinity=""
+            android:turnScreenOn="true" />
 
         <service
             android:name="com.example.safetyapp.ShakeDetectionService"
